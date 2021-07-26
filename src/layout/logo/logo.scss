@@ -1,0 +1,27 @@
+@import "../../styles/variables";
+
+.logo-box {
+  @extend %header-components;
+  a {
+    @include heading-style;
+  }
+}
+
+.logo-img{
+  height: 4rem;
+  margin: auto .8rem;
+  width: 4rem;
+  background-color: aqua;
+  border-radius: 50%;
+}
+
+@media (max-width: 766px) {
+  .logo-box{
+    margin: 0 auto;
+  }
+  .logo-name{
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+}

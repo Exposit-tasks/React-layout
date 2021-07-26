@@ -1,0 +1,21 @@
+@import "../../styles/variables";
+
+.button-standart {
+  border-radius: 1rem;
+  background: #03b1b1;
+  width: 10rem;
+  height: 4rem;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+}
+
+@media (max-width: 766px) {
+
+  .button-standart {
+    border-radius: 1rem;
+    width: 12rem;
+    height: 4rem;
+  }
+}

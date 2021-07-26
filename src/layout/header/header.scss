@@ -1,0 +1,28 @@
+@import "../../styles/variables";
+
+header{
+  display: flex;
+  position: relative;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+  align-items: baseline;
+  background: #2d303a;
+  border-bottom: $border-style;
+}
+
+@media (max-width: 766px) {
+
+
+
+
+  .section-special {
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    article {
+      width: 14rem;
+    }
+
+
+  }
+}
