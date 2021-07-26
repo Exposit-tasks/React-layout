@@ -1,0 +1,38 @@
+$nav-color: #000000;
+$nav-link-background: rgb(3, 177, 177);
+$border-style: #323746 6px solid;
+
+%header-components{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+@mixin glass-effect{
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 5.0px );
+  -webkit-backdrop-filter: blur( 5.0px );
+  border-radius: 2rem;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+@mixin heading-style{
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  &:hover{
+    color: #00ffff;
+  }
+}
+
+@mixin footer-heading{
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: white;
+  &:hover{
+    color: #f06c64;
+  }
+}

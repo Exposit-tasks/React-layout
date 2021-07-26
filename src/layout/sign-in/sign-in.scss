@@ -1,0 +1,15 @@
+@import "../../styles/variables";
+
+
+.sign-in {
+  @extend %header-components;
+  a {
+    @include heading-style;
+  }
+}
+
+@media (max-width: 766px) {
+  .sign-in {
+    display: none;
+  }
+}

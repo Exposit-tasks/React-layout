@@ -1,0 +1,13 @@
+@import "../../styles/variables";
+
+footer{
+  background: #2d303a;
+  padding: 1rem 4rem;
+  border-top: $border-style;
+  &:hover{
+    cursor: pointer;
+  }
+  h2{
+    @include footer-heading;
+  }
+}
